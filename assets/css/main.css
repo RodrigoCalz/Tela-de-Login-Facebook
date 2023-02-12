@@ -1,0 +1,18 @@
+body {
+  background-color: #f0f2f5;
+}
+body > main {
+  width: 100%;
+  padding: 40px 2%;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+@media screen and (max-width: 980px) {
+  body > main {
+    flex-direction: column;
+  }
+}
